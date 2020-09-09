@@ -1,1 +1,1 @@
-# deployment-workshop-2
+# deployment-workshop-bot-2
