@@ -29,3 +29,10 @@
 ## bot challenge
 * bot_challenge
   - utter_iamabot
+
+## Story from conversation with f0064358f31a44728b956ec0c005eafb on September 10th 2020
+
+* greet
+    - action_hi
+* deny
+    - utter_cheer_up
