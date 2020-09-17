@@ -11,6 +11,7 @@
 - goodbye
 - see you around
 - see you later
+- Hasta la vista
 
 ## intent:affirm
 - yes
@@ -18,6 +19,8 @@
 - of course
 - that sounds good
 - correct
+- Yes you are
+- Sure
 
 ## intent:deny
 - no
@@ -36,6 +39,7 @@
 - I am feeling very good
 - I am great
 - I'm good
+- So nice to talk to you
 
 ## intent:mood_unhappy
 - sad
