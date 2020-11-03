@@ -18,6 +18,7 @@
 - of course
 - that sounds good
 - correct
+- awesome
 
 ## intent:deny
 - no
@@ -48,6 +49,7 @@
 - not very good
 - extremely sad
 - so sad
+- Im meh
 
 ## intent:bot_challenge
 - are you a bot?
