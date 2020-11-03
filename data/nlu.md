@@ -50,6 +50,7 @@
 - extremely sad
 - so sad
 - Im meh
+- im a bit poopy
 
 ## intent:bot_challenge
 - are you a bot?
