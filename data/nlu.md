@@ -26,6 +26,7 @@
 - don't like that
 - no way
 - not really
+- meh
 
 ## intent:mood_great
 - perfect
@@ -48,6 +49,7 @@
 - not very good
 - extremely sad
 - so sad
+- Not really
 
 ## intent:bot_challenge
 - are you a bot?
