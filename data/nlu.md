@@ -36,6 +36,8 @@
 - I am feeling very good
 - I am great
 - I'm good
+- hahah
+- funny
 
 ## intent:mood_unhappy
 - sad
