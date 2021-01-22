@@ -1,0 +1,5 @@
+version: "2.0"
+stories:
+- story: Story from Conversation ID 42197feab7ca4c5f9378e32e6ee57945
+  steps:
+  - intent: affirm
