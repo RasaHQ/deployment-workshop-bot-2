@@ -36,6 +36,7 @@
 - I am feeling very good
 - I am great
 - I'm good
+- I am good
 
 ## intent:mood_unhappy
 - sad
@@ -57,3 +58,5 @@
 
 ## intent:rivers_verify
 - I need access to rivers
+- I need access to Rivers
+- I need Rivers Access
