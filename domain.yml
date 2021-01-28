@@ -41,6 +41,5 @@ responses:
   - text: I understand you need access to Rivers
 actions:
 - action_hi
-- utter_riversaccess
 forms: {}
 e2e_actions: []

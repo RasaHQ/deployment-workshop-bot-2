@@ -60,3 +60,7 @@
 - I need access to rivers
 - I need access to Rivers
 - I need Rivers Access
+- I need access to rivers [*****ac.melton01@gmail.com](extract_email)
+
+## regex:extract_email
+- (?:\*\*\*\*\*)([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)
