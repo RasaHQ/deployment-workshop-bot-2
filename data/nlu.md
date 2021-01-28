@@ -58,8 +58,12 @@
 
 ## intent:rivers_verify
 - I need Rivers Access
-- I need access to rivers[ *****ac.melton01@gmail.com](extract_email)
 - I need access to rivers
+- I need access to Rivers
+- I need access to rivers please [*****ac.melton01@gmail.com](extract_email)
+- I need access to rivers *****ac.melton01@gmail.com
+- yes, I need access to rivers [*****ac.melton01@gmail.com](extract_email)
+- I need access to rivers right now [*****ac.melton01@gmail.com](extract_email)
 
 ## regex:extract_email
 - (?:\*\*\*\*\*)([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)
