@@ -6,6 +6,7 @@
 - good morning
 - good evening
 - hey there
+- hallo Benny
 
 ## intent:goodbye
 - bye
