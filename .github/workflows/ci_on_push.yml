@@ -1,0 +1,27 @@
+# See: https://help.github.com/en/actions/language-and-framework-guides/using-python-with-github-actions
+name: CI on push
+on:
+ push:
+   paths-ignore:
+   - "README.md"
+ 
+jobs:
+ ci:
+   name: CI job
+   runs-on: ubuntu-latest
+   steps:
+   - uses: actions/checkout@v2
+   - name: Set up Python 3.7
+     uses: actions/setup-python@v2
+     with:
+       python-version: 3.7
+   - name: Install dependencies
+     run: |
+       python -m pip install -U pip
+       pip install -r requirements.txt
+   - name: Test it all
+     working-directory: ${{ github.workspace }}
+     run: |
+       rasa train --quiet
+       rasa test --fail-on-prediction-errors
+       
