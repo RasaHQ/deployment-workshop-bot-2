@@ -6,8 +6,90 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - hydrojet_machine_pressure
+  - hydrojet_guns
+  - minimal_hydrojet_gun
+  - false_answer_on_hydrojet_gun
+  - Hydro_Jet_Gun_Hoses
+  - checklist_hydrojet_machine
+  - earthing_for_hydrojet_machine
+  - purpose_hydrojet_machine
+  - hydrojet_hoses_certification
+  - competency_operate_hydrojet_machine
+  - transport_hydrojet
+  - train_gunner
+  - hydrojet_faulty_pressure_guage
+  - inspection_hydrojet_machine
+  - positioning_hydrojet
+  - hydrojet_hoses_inspection
+  - operating_hour_hydrojet
+  - safe_PPE_hydrojet
+
 
 responses:
+
+utter_safe_ppe_hydrojet:
+- text: "Additional PPE such as ear plugs or muffles is to be worn as the machine create a loud noise."
+  image: "https://www.ishn.com/ext/resources/Issues/2019/05-May/ISHN0519_F6_pic.jpg?1556724567"
+
+utter_operating_hour_hydrojet:
+- text: "It is advisable to keep it between 2 hour with breaks in between. It is to ensure sufficient petrol is required to run the machine and to prevent and overheating during the operation."
+
+utter_hydrojet_hoses_inspection:
+- text: "After completion of connecting all hoses, A leak test is conducted prior to start the work. Leakage of water will leak if the connection is not connected properly."
+
+utter_position_hydrojet:
+- text: "It is recommended that the machine is to be place on a flat and even ground"
+
+utter_hydroject_inspection:
+- text: "Yes, the Hydrojet machine is required to undergo yearly inspection as per MOM guidelines (insert link to MOM guidelines) https://www.mom.gov.sg/workplace-safety-and-health"
+
+utter_faulty_pressure_gauge:
+- text: "The Machine must not be in use unless the pressure gauge is replaced (Show photo of pressure gauge)"
+  image: ""
+
+utter_gunner_training:
+- text: "Yes, special training is required someone who is fit and tall build must be able to withstand the pressure of 20 000PSI"
+
+utter_transporting_hydrojet:
+- text: "A lorry crane is required to lift up/down the machine and transport it to the required destination"
+  image: ""
+
+utter_competent_operate_hydrojet_machine:
+- text: "Yes, selected workers must be given training on how to operate the hydrojetting machine"
+
+utter_hydrojet_hoses_certification:
+- text: "Yes, the validity for hoses is 1 year for each length after which it is send for recertification again on its integrity"
+
+utter_hydrojet_purpose:
+- text: "Hydrojet is used to boost up the pressure of water from 0 psi up to 20 000psi. Mainly use for tank cleaning purposes"
+
+utter_hydrojet_earthing:
+- text: "Firstly, to ensure that no static electricity is passing through our body, also, to prevent any static fire to ignite"
+  image: ""
+
+utter_hydrojet_machine_checklist:
+- text: "Ensure that the daily checklist is completed, and you need to be competent in operating the machine"
+  image: ""
+
+utter_hydro_jet_gun_hoses:
+- text: "It is using a National Pipe Taper (NPT) 3/4 inch hose connection"
+  image: ""
+
+utter_false_answer_hydrojet_gun:
+- text: "no"
+
+utter_min_hydrojet_gun:
+- text: "Yes, you can choose to use only one jet gun"
+
+  utter_hydrojet_machine_pressure:
+  - text: "The maximum pressure of hydrojet is 20 000PSI"
+    image: "https://www.nlbcorp.com/wp-content/uploads/2012/06/225DieselImage_v1.png"
+
+  utter_hydrojet_guns:
+  - text: "You can use 2 jet guns simultaneously"
+    image: "https://www.nlbcorp.com/wp-content/uploads/2012/05/NCG24-535_300-x-2251.jpg"
+
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
@@ -19,10 +101,10 @@ responses:
   - text: "Great, carry on!"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Goodbye"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "I am a bot, powered by Steve."
 
 actions:
 - action_hi
