@@ -6,3 +6,5 @@
 - `rasa train`
 - `rasa run actions`
 - `rasa shell --debug`
+
+If push to Github
