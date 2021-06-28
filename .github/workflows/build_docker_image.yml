@@ -1,0 +1,21 @@
+name: Build Docker Image
+on: push
+jobs:
+  build-docker-image:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout git repository
+        uses: actions/checkout@v2
+      - name: Action Server
+        uses: RasaHQ/rasa-action-server-gha@v1.0.3
+        with:
+          actions_directory: ./actions
+          requirements_file: ./actions/requirements.txt
+          docker_registry: docker.io
+          docker_registry_login: ${{ secrets.DOCKER_REGISTRY_LOGIN }}
+          docker_registry_password: ${{ secrets.DOCKER_REGISTRY_PASSWORD }}
+          docker_image_name: ${{ secrets.DOCKER_HUB_LOGIN }}/deployment-workshop-bot-2
+          docker_image_tag: 1
+          docker_registry_push: true
+          dockerfile: Dockerfile
+          rasa_sdk_version: latest
