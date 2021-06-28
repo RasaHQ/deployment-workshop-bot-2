@@ -5,6 +5,7 @@ COPY actions /app/actions
 
 USER root
 RUN pip install --upgrade pip
+RUN pip install --no-cache-dir -r /app/requirements.txt
 RUN pip install --no-cache-dir -r /app/actions/requirements-actions.txt
 
 USER 1001
