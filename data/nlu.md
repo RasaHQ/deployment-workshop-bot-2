@@ -20,9 +20,9 @@
 - of course
 - that sounds good
 - correct
+- no
 
 ## intent:deny
-- no
 - never
 - I don't think so
 - don't like that
