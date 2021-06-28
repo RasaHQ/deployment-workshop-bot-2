@@ -19,6 +19,8 @@ class ActionHi(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
+        print("action server ActionHi")
+
         dispatcher.utter_message(text="Hi, from custom action 'action_hi' !")
         dispatcher.utter_message(text="How are you?")
 
