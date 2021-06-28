@@ -7,4 +7,4 @@
 - `rasa run actions`
 - `rasa shell --debug`
 
-If push to Github
+If push to Github 
