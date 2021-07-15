@@ -48,6 +48,7 @@
 - not very good
 - extremely sad
 - so sad
+- ok, I guess...
 
 ## intent:bot_challenge
 - are you a bot?
