@@ -5,6 +5,7 @@
 - good morning
 - good evening
 - hey there
+- heyo
 
 ## intent:goodbye
 - bye
